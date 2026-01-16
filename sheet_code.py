@@ -1,8 +1,8 @@
 import pandas as pd
 import numpy as np
 
-hobby_sheet = pd.read_csv("Hobby_Sheet.csv", index=False)
-print(hobby_sheet.head()) # print for testing
+hobby_sheet = pd.read_csv("Hobby_Sheet.csv", index_col=False)
+#print(hobby_sheet.head()) # print for testing
 
 # get input from users
 def getInput():
